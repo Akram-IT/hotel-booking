@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #1e2a38;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar li {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navbar li:hover {
+  color: #f5c518;
+}
+
+.hero {
+  background-image: url('C:\Users\lets play physics\Desktop\test\client\src\Uploads\pic3.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 4rem 2rem;
+  text-shadow: 1px 1px 4px black;
+}
+
+.rooms {
+  padding: 2rem;
+}
+
+.room-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.room-card1 {
+  background-image: url('C:\Users\lets play physics\Downloads\pic1.jpg');
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(210, 224, 4, 0.1);
+  padding: 2rem;
+  max-width: 300px;
+  transition: transform 0.3s;
+}
+
+.room-card2 {
+  background-image: url('C:\Users\lets play physics\Downloads\pic2.jpg');
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(210, 224, 4, 0.1);
+  padding: 2rem;
+  max-width: 300px;
+  transition: transform 0.3s;
+}
+
+.room-card3 {
+  background-image: url('C:\Users\lets play physics\Downloads\pic3.jpg');
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(210, 224, 4, 0.1);
+  padding: 2rem;
+  max-width: 300px;
+  transition: transform 0.3s;
+}
+
+.room-card4 {
+  background-image: url('C:\Users\lets play physics\Downloads\pic4.jpg');
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(210, 224, 4, 0.1);
+  padding: 2rem;
+  max-width: 300px;
+  transition: transform 0.3s;
+}
+
+.room-card1:hover {
+  transform: translateY(-5px);
+}
+.room-card2:hover {
+  transform: translateY(-5px);
+}
+.room-card3:hover {
+  transform: translateY(-5px);
+}
+.room-card4:hover {
+  transform: translateY(-5px);
+}
+
+.room-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: #1e2a38;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+h4,p {
+  color:hsl(0, 0%, 97%);
+}
